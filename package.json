@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "commit": "git-cz"
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.3",
@@ -40,6 +41,7 @@
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
     "@types/react-redux": "^7.1.18",
+    "@types/redux-devtools-extension": "^2.13.2",
     "@types/redux-logger": "^3.0.9",
     "@types/webpack-env": "^1.16.2",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
@@ -57,10 +59,34 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.1.2",
+    "redux-devtools-extension": "^2.13.9",
     "redux-logger": "^3.0.6",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recommended": "^5.0.0",
     "stylelint-order": "^4.1.0",
     "typescript": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && ls-lint",
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*{.js,.jsx,.ts,.tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*{.css,.scss}": [
+      "stylelint --fix",
+      "prettier --write",
+      "git add"
+    ]
   }
 }

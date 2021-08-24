@@ -1,4 +1,7 @@
 module.exports = {
   distDir: 'build',
-  poweredByHeader: false
+  poweredByHeader: false,
+  env: {
+    LOCALE: 'zh-CN'
+  }
 }

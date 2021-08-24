@@ -5,3 +5,5 @@ declare module '*.gif'
 declare module '*.jpg'
 declare module '*.jpeg'
 declare module '*.svg'
+
+type Locale = 'zh-CN' | 'en-US'

@@ -1323,6 +1323,18 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
+"@types/redux-actions@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.nlark.com/@types/redux-actions/download/@types/redux-actions-2.6.2.tgz?cache=0&sync_timestamp=1629709026552&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fredux-actions%2Fdownload%2F%40types%2Fredux-actions-2.6.2.tgz#5956d9e7b9a644358e2c0610f47b1fa3060edc21"
+  integrity sha1-WVbZ57mmRDWOLAYQ9HsfowYO3CE=
+
+"@types/redux-devtools-extension@^2.13.2":
+  version "2.13.2"
+  resolved "https://registry.nlark.com/@types/redux-devtools-extension/download/@types/redux-devtools-extension-2.13.2.tgz#b2e09a8c163b2b0f5072e6a5ac41474000df2111"
+  integrity sha1-suCajBY7Kw9QcualrEFHQADfIRE=
+  dependencies:
+    redux-devtools-extension "*"
+
 "@types/redux-logger@^3.0.9":
   version "3.0.9"
   resolved "https://registry.nlark.com/@types/redux-logger/download/@types/redux-logger-3.0.9.tgz?cache=0&sync_timestamp=1629709036957&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fredux-logger%2Fdownload%2F%40types%2Fredux-logger-3.0.9.tgz#9193b3d51bb6ab98d25514ba7764e4f98a64d3ec"
@@ -5236,6 +5248,11 @@ redux-actions@^2.6.5:
     loose-envify "^1.4.0"
     reduce-reducers "^0.4.3"
     to-camel-case "^1.0.0"
+
+redux-devtools-extension@*, redux-devtools-extension@^2.13.9:
+  version "2.13.9"
+  resolved "https://registry.nlark.com/redux-devtools-extension/download/redux-devtools-extension-2.13.9.tgz#6b764e8028b507adcb75a1cae790f71e6be08ae7"
+  integrity sha1-a3ZOgCi1B63LdaHK55D3Hmvgiuc=
 
 redux-logger@^3.0.6:
   version "3.0.6"
