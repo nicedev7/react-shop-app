@@ -9,6 +9,10 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="utf-8" />
+          {/**
+           * do not use <title> in Document Component
+           * @see https://nextjs.org/docs/messages/no-document-title
+           */}
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
