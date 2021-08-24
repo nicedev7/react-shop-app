@@ -1,0 +1,6 @@
+export { default as HomeIcon } from './home.svg'
+export { default as HomeFillIcon } from './home-fill.svg'
+export { default as CategoryIcon } from './category.svg'
+export { default as CategoryFillIcon } from './category-fill.svg'
+export { default as UserIcon } from './user.svg'
+export { default as UserFillIcon } from './user-fill.svg'
