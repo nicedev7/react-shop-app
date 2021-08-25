@@ -1325,7 +1325,7 @@
 
 "@types/redux-actions@^2.6.2":
   version "2.6.2"
-  resolved "https://registry.nlark.com/@types/redux-actions/download/@types/redux-actions-2.6.2.tgz?cache=0&sync_timestamp=1629709026552&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fredux-actions%2Fdownload%2F%40types%2Fredux-actions-2.6.2.tgz#5956d9e7b9a644358e2c0610f47b1fa3060edc21"
+  resolved "https://registry.nlark.com/@types/redux-actions/download/@types/redux-actions-2.6.2.tgz#5956d9e7b9a644358e2c0610f47b1fa3060edc21"
   integrity sha1-WVbZ57mmRDWOLAYQ9HsfowYO3CE=
 
 "@types/redux-devtools-extension@^2.13.2":
