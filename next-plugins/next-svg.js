@@ -5,7 +5,6 @@ module.exports = (nextConfig = {}) => {
   return {
     ...nextConfig,
     webpack(config, options) {
-      console.log(config.module.rules)
       config.module.rules.push({
         test: /\.svg$/,
         issuer: {
