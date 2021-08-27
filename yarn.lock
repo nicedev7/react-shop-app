@@ -5881,6 +5881,13 @@ stylelint-config-prettier@^8.0.2:
   resolved "https://registry.npm.taobao.org/stylelint-config-prettier/download/stylelint-config-prettier-8.0.2.tgz#da9de33da4c56893cbe7e26df239a7374045e14e"
   integrity sha1-2p3jPaTFaJPL5+Jt8jmnN0BF4U4=
 
+stylelint-config-recommended-scss@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.nlark.com/stylelint-config-recommended-scss/download/stylelint-config-recommended-scss-4.3.0.tgz#717dc253b4cab246da654cee208e499c5c797ae4"
+  integrity sha1-cX3CU7TKskbaZUzuII5JnFx5euQ=
+  dependencies:
+    stylelint-config-recommended "^5.0.0"
+
 stylelint-config-recommended@^5.0.0:
   version "5.0.0"
   resolved "https://registry.nlark.com/stylelint-config-recommended/download/stylelint-config-recommended-5.0.0.tgz#fb5653f495a60b4938f2ad3e77712d9e1039ae78"
