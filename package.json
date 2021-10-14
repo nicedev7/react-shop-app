@@ -1,8 +1,8 @@
 {
-  "name": "react-blog-app",
+  "name": "react-shop-app",
   "version": "0.1.0",
   "private": true,
-  "description": "A blog web app sample, form a complete blog sample with react-native-blog-app.",
+  "description": "A shop web app sample.",
   "author": "Cesar Lai",
   "license": "MIT",
   "homepage": ".",

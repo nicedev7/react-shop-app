@@ -6,7 +6,7 @@ import { PersistGate } from 'redux-persist/integration/react'
 import Constants from '@/constants'
 import { createRootStore } from '@/store'
 
-import '@/styles/globals.css'
+import '@/styles/globals.scss'
 
 const LOCALE = (process.env.LOCALE as Locale) ?? 'zh-CN'
 

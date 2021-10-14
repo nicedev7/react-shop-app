@@ -1,3 +1,3 @@
 export default {
-  APP_NAME: 'react-blog-app'
+  APP_NAME: 'react-shop-app'
 }

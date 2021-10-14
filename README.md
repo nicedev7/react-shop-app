@@ -1,3 +1,3 @@
-# react-blog-app
+# react-shop-app
 
-A blog web app sample, form a complete blog sample with react-native-blog-app.
+A shop web app sample.
