@@ -3,16 +3,14 @@ import { useSelector } from 'react-redux'
 import Constants from '@/constants'
 
 import { RootReducerState } from '@/store/types'
+import { LocaleModel } from '@/locales/home/types'
 import styles from './index.module.scss'
-import { LocaleModel } from './locales/types'
-
-console.log(styles)
 
 function Home() {
   const localeValue = useSelector(
     (state: RootReducerState) => state.locale.locale
   )
-  const Locale = require(`./locales/${localeValue}`).default as LocaleModel
+  const Locale = require(`@/locales/home/${localeValue}`).default as LocaleModel
 
   return (
     <div className={styles.container}>
